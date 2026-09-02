@@ -1,0 +1,17 @@
+[
+  {
+    "change_id": "CHG-001",
+    "timestamp": "2026-08-06T13:42:00",
+    "change_type": "app_release",
+    "platform": "android",
+    "version": "5.4.2",
+    "description": "Android 5.4.2 minor release rolled out to production."
+  },
+  {
+    "change_id": "CHG-002",
+    "timestamp": "2026-08-10T10:00:00",
+    "change_type": "third_party_incident",
+    "provider": "Provider_B",
+    "description": "Provider_B API gateway latency elevation and timeouts."
+  }
+]

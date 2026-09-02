@@ -1,0 +1,317 @@
+[
+  {
+    "anomaly_id": "ANO_DET_001",
+    "time": "2026-08-06 14:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 14:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "web_v1.0",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.7145,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.7145
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = 'web_v1.0' | Beklenen: 0.7145 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "web_v1.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.7145,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.7145
+        },
+        {
+          "dimension_type": "platform",
+          "dimension_value": "web",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.7145,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.7145
+        },
+        {
+          "dimension_type": "paymentProvider",
+          "dimension_value": "Provider_C",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6637,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6637
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_002",
+    "time": "2026-08-06 15:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 15:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "5.4.1",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.6791,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.6791
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = '5.4.1' | Beklenen: 0.6791 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.1",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6791,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6791
+        },
+        {
+          "dimension_type": "paymentProvider",
+          "dimension_value": "Provider_C",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6537,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6537
+        },
+        {
+          "dimension_type": "paymentProvider",
+          "dimension_value": "Provider_C",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6537,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6537
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_003",
+    "time": "2026-08-06 16:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 16:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "5.4.1",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.6106,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.6106
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = '5.4.1' | Beklenen: 0.6106 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.1",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6106,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6106
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6029,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6029
+        },
+        {
+          "dimension_type": "paymentProvider",
+          "dimension_value": "Provider_C",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.5923,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.5923
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_004",
+    "time": "2026-08-06 17:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 17:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "3.1.0",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.6689,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.6689
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = '3.1.0' | Beklenen: 0.6689 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "3.1.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6689,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6689
+        },
+        {
+          "dimension_type": "platform",
+          "dimension_value": "ios",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6127,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6127
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "web_v1.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.5956,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.5956
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_005",
+    "time": "2026-08-06 19:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 19:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "platform",
+        "dimension_value": "ios",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.6611,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.6611
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'platform' = 'ios' | Beklenen: 0.6611 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "platform",
+          "dimension_value": "ios",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6611,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6611
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "3.1.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6578,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6578
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6017,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6017
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_006",
+    "time": "2026-08-06 21:00:00",
+    "anomaly_type": "conversion_anomaly",
+    "severity": "high",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-06 21:00:00",
+      "analyzed_metric": "cr_payment_submitted_to_purchase_completed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "web_v1.0",
+        "actual_value": 0.0,
+        "expected_reference_value": 0.7,
+        "percentage_change": -100.0,
+        "absolute_drop": 0.7
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = 'web_v1.0' | Beklenen: 0.7 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "web_v1.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.7,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.7
+        },
+        {
+          "dimension_type": "platform",
+          "dimension_value": "web",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.7,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.7
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.0",
+          "actual_value": 0.0,
+          "expected_reference_value": 0.6,
+          "percentage_change": -100.0,
+          "absolute_drop": 0.6
+        }
+      ]
+    }
+  },
+  {
+    "anomaly_id": "ANO_DET_007",
+    "time": "2026-08-15 00:00:00",
+    "anomaly_type": "volume_anomaly",
+    "severity": "critical",
+    "rca_diagnosis": {
+      "anomaly_time": "2026-08-15 00:00:00",
+      "analyzed_metric": "product_viewed",
+      "primary_root_cause": {
+        "dimension_type": "appVersion",
+        "dimension_value": "5.4.2",
+        "actual_value": 0.0,
+        "expected_reference_value": 96.6667,
+        "percentage_change": -100.0,
+        "absolute_drop": 96.6667
+      },
+      "explanation": "K\u00f6k Neden Tespit Edildi \u2794 Boyut: 'appVersion' = '5.4.2' | Beklenen: 96.6667 \u2794 Ger\u00e7ekle\u015fen: 0.0 (De\u011fi\u015fim: %-100.0)",
+      "all_candidates": [
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.2",
+          "actual_value": 0.0,
+          "expected_reference_value": 96.6667,
+          "percentage_change": -100.0,
+          "absolute_drop": 96.6667
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.2",
+          "actual_value": 0.0,
+          "expected_reference_value": 96.6667,
+          "percentage_change": -100.0,
+          "absolute_drop": 96.6667
+        },
+        {
+          "dimension_type": "appVersion",
+          "dimension_value": "5.4.2",
+          "actual_value": 0.0,
+          "expected_reference_value": 96.6667,
+          "percentage_change": -100.0,
+          "absolute_drop": 96.6667
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "anomaly_id": "ANO-001",
+    "type": "conversion_anomaly",
+    "start_time": "2026-08-06T14:00:00",
+    "end_time": "2026-08-06T22:00:00",
+    "affected_step": "purchase_completed",
+    "root_cause": {
+      "platform": "android",
+      "appVersion": "5.4.2",
+      "trigger_change_event": "CHG-001"
+    },
+    "description": "Android 5.4.2 update broken payment SDK integration, dropping completion rate."
+  },
+  {
+    "anomaly_id": "ANO-002",
+    "type": "conversion_latency_anomaly",
+    "start_time": "2026-08-10T10:00:00",
+    "end_time": "2026-08-10T14:00:00",
+    "affected_step": "payment_submitted",
+    "root_cause": {
+      "paymentProvider": "Provider_B",
+      "trigger_change_event": "CHG-002"
+    },
+    "description": "Provider_B downtime causing payment submissions to fail."
+  },
+  {
+    "anomaly_id": "ANO-003",
+    "type": "data_quality_anomaly",
+    "start_time": "2026-08-13T18:00:00",
+    "end_time": "2026-08-14T00:00:00",
+    "affected_step": "purchase_completed",
+    "root_cause": {
+      "platform": "ios",
+      "appVersion": "3.2.0",
+      "issue": "tracking_event_dropped"
+    },
+    "description": "iOS 3.2.0 failed to fire purchase_completed SDK telemetry event despite successful purchase."
+  }
+]
